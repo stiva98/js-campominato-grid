@@ -15,12 +15,14 @@ RESET
     align-items: center;
     flex-wrap: wrap;
 }
+.container-button {
+    text-align: center;
+}
 h1 {
     text-align: center;
 }
 .my-button {
     margin: 20px auto;
-    display: flex;
     font-size:15px;
     width:140px;
     height:50px;
@@ -36,7 +38,29 @@ h1 {
     padding: 18px;
 }
 .cell {
-    width: 10%;
+    width: calc(100% / 10);
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    color: white;
+}
+.cell-2 {
+    width: calc(100% / 9);
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    color: white;
+}
+.cell-3 {
+    width: calc(100% / 7);
     height: 100px;
     line-height: 100px;
     text-align: center;

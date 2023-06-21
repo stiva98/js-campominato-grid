@@ -12,13 +12,25 @@
     <h1>
         Griglia Campo Minato
     </h1>
-    <button type="button" class="my-button">
-        Start
-    </button>
+    <div class="container-button">
 
-    <button type="reset" class="my-button reset">
-        Reset
-    </button>
+        <form action="" method="get" class="my-form">
+            <label for="cars">Scegli il livello:</label>
+        
+            <select name="difficults" id="difficults">
+                <option value="easy">Facile</option>
+                <option value="medium">Medio</option>
+                <option value="hard">Difficile</option>
+            </select>
+
+            <button class="my-button">
+                Start
+            </button>
+            <button type="reset" class="my-button reset">
+                Reset
+            </button>
+        </form>
+    </div>
 
     <div class="container"></div>
 
