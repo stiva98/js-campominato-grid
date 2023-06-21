@@ -7,6 +7,9 @@ RESET
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-image: url(https://wallpapercave.com/wp/wp2383915.jpg);
+}
 .container {
     max-width: 73.125rem;
     margin: 0 auto;
@@ -43,7 +46,6 @@ h1 {
     line-height: 100px;
     text-align: center;
     border: 2px solid black;
-    background-color: red;
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: pointer;
     color: white;
@@ -54,7 +56,6 @@ h1 {
     line-height: 100px;
     text-align: center;
     border: 2px solid black;
-    background-color: red;
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: pointer;
     color: white;
@@ -65,11 +66,13 @@ h1 {
     line-height: 100px;
     text-align: center;
     border: 2px solid black;
-    background-color: red;
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: pointer;
     color: white;
 }
 .new-bg {
-    background-color: chocolate;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+label {
+    color: white;
 }
